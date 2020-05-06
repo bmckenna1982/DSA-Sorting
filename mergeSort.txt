@@ -1,0 +1,34 @@
+1. 
+21, 1
+16, 49, 39, 27, 43, 34, 46, 40
+1, 21
+21, 1, 26, 45, 29, 28, 2, 9, 
+21, 1, 26, 45, 29, 28, 2, 9 --- 16, 49, 39, 27, 43, 34, 46, 40
+21, 1, 26, 45 --- 29, 28, 2, 9
+21, 1---26, 45
+21 --- 1
+1
+What is the resulting list that will be sorted after 3 recursive calls to mergesort?
+21, 1
+What is the resulting list that will be sorted after 16 recursive calls to mergesort?
+1, 26, 45, 29, 28, 2, 9, 
+What are the first 2 lists to be merged?
+21, 1
+Which two lists would be merged on the 7th merge?
+
+2.
+The pivot could have been 17, but could not have been 14
+False
+The pivot could have been either 14 or 17
+False
+Neither 14 nor 17 could have been the pivot
+True
+The pivot could have been 14, but could not have been 17
+False
+
+When using the last item on the list as a pivot
+10, 3, 9, 12, 14, 17 ,13, 15, 19, 16
+10, 3, 9, 12, 14, 13, 15, 16, 17, 19
+When using the first item on the list as a pivot
+13, 10, 3, 9, 12, 14, 17, 15, 19, 16 
+10, 3, 9, 12, 13, 14, 17, 15, 19, 16
